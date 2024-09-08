@@ -19,7 +19,10 @@ export function FarmLandListing() {
   const [cropSharePercentage, setCropSharePercentage] = useState(50)
   const [flexRentBase, setFlexRentBase] = useState(200)
   const [flexRentBonus, setFlexRentBonus] = useState(20)
-  
+// user can create listing, user has listing, listing has title description(other properties depend on the form and the type of product being listed by the user.)
+/* Example: user 1 has the listing below.
+task: make an api to fetch this data from the db
+*/
   const listing = {
     title: "200-Acre Prime Agricultural Land",
     description: "Exceptional 200-acre farm with rich, fertile soil perfect for row crops. Gentle rolling hills with excellent drainage. Irrigation system in place. Easy access to major highways for convenient transport of goods.",
